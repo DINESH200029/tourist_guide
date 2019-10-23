@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.demo1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:noHistory="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UserPofile" />
+        <activity android:name=".tikt_intent_inprogress" />
+        <activity
+            android:name=".pdf_veiwer"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".closed_tikt_intent"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".ticket_intent"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".selekt_skool"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".closed_tikts"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".inprgrs_tikts"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".asngd_tikts"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".create_acct"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".smrt_class"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".tSmartBus"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".tSmartCollege"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".tSmartStudent"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".smrt_parent"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".login_page"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".smrt_skool"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".testing"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".pilot_skools"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".seknd_scrn"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <TableLayout
+        android:layout_marginLeft="13dp"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:stretchColumns="1">
+
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Log In"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/t1"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Start Trip"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+            <EditText
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="End Trip"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t3"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Pickup"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t4"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Dropoff"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t5"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="View OnBoard Students"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t6"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Video Recording"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t7"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Add Route"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t8"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Logout"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t9"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+
+
+    </TableLayout>
+</ScrollView>

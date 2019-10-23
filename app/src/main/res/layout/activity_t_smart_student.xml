@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <TableLayout
+        android:layout_marginLeft="13dp"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:stretchColumns="1">
+
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Log in"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/t1"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Shedule Appoinment"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t2"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Comm. With Teacher"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t3"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Comm. With School"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t4"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Pay School Fee"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t5"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Relod Funds"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t6"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Class Channel"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t7"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="School Channel"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t8"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Photo Gallery"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t9"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Events Calender"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t10"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Contact Us"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t11"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Students Time Table"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t12"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Incidents"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t13"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Homework&amp;Assignment"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t14"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Attendance"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t15"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Bus Information"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t16"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:gravity="bottom">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="Sign Out"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/t17"
+                android:layout_weight="2"
+                android:focusable="false"
+                android:onClick="popup" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>
